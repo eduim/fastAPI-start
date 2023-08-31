@@ -22,6 +22,6 @@ def index():
   return {'message': 'Hello World!'}
 ```
 
-And run the script uvicorn fapi:app (location:variable/module),add the flag `--reload` for hot reloading
+And run the script uvicorn fapi:app (location:variable/module), add the flag `--reload` for hot reloading
 
-It should appear the url if you go to /docs you should see the documentation of you api.
+It should appear the url if you go to `/docs` you should see the documentation of you api.
